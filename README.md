@@ -7,6 +7,26 @@ Todo: Post link
 
 Todo: Hake a table
 
+Tests were made using apache benchmark tool:
+
+get-text
+
+```bash
+ab -n 100 -c 10 http://0.0.0.0:3000/text > 1.txt
+```
+
+get-json
+
+```bash
+ab -n 100 -c 10 http://0.0.0.0:3000/json > 1.txt
+```
+
+post-json
+
+```bash
+ab -p data.json -T application/json -n 100 -c 10 http://0.0.0.0:3000/json > 1.txt
+```
+
 ## Notes
 
 Tests were made on M1 Macbook Air 8GB RAM

@@ -4,10 +4,6 @@
   "description": "",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "start": "NODE_ENV=production node index.js",
-    "dev": "node --watch index.js"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
