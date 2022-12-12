@@ -7,6 +7,7 @@
 - [How tests were made](#How-tests-were-made)
 - [Version details](#Version-details)
 - [FAQ](#FAQ)
+- [Credits & Inspiration](#Credits-&-Inspiration)
 
 ## Results
 
