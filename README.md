@@ -7,7 +7,7 @@
 - [How tests were made](#How-tests-were-made)
 - [Version details](#Version-details)
 - [FAQ](#FAQ)
-- [Credits & Inspiration](#Credits-&-Inspiration)
+- [Credits and Inspiration](#Credits-and-Inspiration)
 
 ## Results
 
@@ -180,7 +180,7 @@ Golang is very fast, but some of it's libraries are not that well mantained, for
 
 Working with JSON in Golang is more difficult since you have to provide type definitions up-front. In contrast, JavaScript and Python may make it more pleasant to work with JSON, although lack of type-safety can also be a problem.
 
-## Credits & Inspiration
+## Credits and Inspiration
 
 - [Benawad](https://youtu.be/uFH5S5dUPr8)
 - [Fireship](https://youtu.be/N6-Q2dgodLs)
