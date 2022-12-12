@@ -1,5 +1,13 @@
 # Express - Flask - Gin Benchmark
 
+## Contents
+
+- [Requests per second](#Requests-per-second)
+- [Ram usage](#Ram-usage)
+- [How tests were made](#How-tests-were-made)
+- [Version details](#Version-details)
+- [FAQ](#FAQ)
+
 ## Results
 
 ### Requests per second
@@ -13,7 +21,7 @@
 ![](/images/standby-ram.png)
 ![](/images/after-all-tests-ram.png)
 
-## Tests
+## How tests were made
 
 Tests were made using [apache benchmark](https://httpd.apache.org/docs/2.4/programs/ab.html) tool:
 
@@ -78,7 +86,7 @@ go build -o index
 ./index
 ```
 
-## Tests Details
+## Version Details
 
 - M1 Macbook Air 8GB RAM
 - MacOS Ventura 13.0
