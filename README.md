@@ -128,10 +128,6 @@ I avoided logging since I think this could affect performance.
 
 The way gunicorn works is by spawning child processes. As far as I know there's no way around it, so I'm summing the ram usage of the web server plus the ram usage of the worker process. This doesn't happen on express and gin.
 
-### Why didn't you use [mysql](https://github.com/mysqljs/mysql#readme) instead of [mysql2](https://github.com/sidorares/node-mysql2)?
-
-I got [an error](https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server) related to mysql permissions (which seems to be pretty common) in which the solution consists on "risking the securty of the project". So I decided to use mysql2.
-
 ### Why don't you use `npm start` to run the node test?
 
 The `npm start` command runs the server as a child process, meaning we have two (`node` and `npm start`) processes, making it more difficult to measure ram usage. Instead we directly call the `node` command.
